@@ -5,6 +5,12 @@ It collects user input, validates email, fetches live weather & air quality data
 
 ---
 
+📽️ Demo Video
+🎥 Watch how it works from start to finish:
+https://drive.google.com/file/d/1OhfaW5OnphfJnKhkUtURJTx1RkUWjZaE/view?usp=drive_link
+---
+
+
 ## 🔗 Live Form
 
 Submit your details here:(https://your-lovable-form-link.com)
@@ -45,7 +51,3 @@ function validateEmail(email) {
   const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   return regex.test(email);
 }
-
-📽️ Demo Video
-🎥 Watch how it works from start to finish:
-https://drive.google.com/file/d/1OhfaW5OnphfJnKhkUtURJTx1RkUWjZaE/view?usp=drive_link
