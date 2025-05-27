@@ -1,11 +1,13 @@
-This project was built as part of the **AI Automation Project**.
+# 🌤️ AI Weather Reporter
+
+This project was built as part of the **AI Automation Project**.  
 It collects user input, validates email, fetches live weather & air quality data, stores it, and sends a weather summary email – optionally enhanced with AI commentary.
 
 ---
 
 ## 🔗 Live Form
 
-Submit your details here: [Lovable Form](https://your-lovable-form-link.com)
+Submit your details here:(https://your-lovable-form-link.com)
 
 ---
 
@@ -44,8 +46,6 @@ function validateEmail(email) {
   return regex.test(email);
 }
 
----
-
-## 📽️ Demo Video
+📽️ Demo Video
 🎥 Watch how it works from start to finish:
 https://drive.google.com/file/d/1OhfaW5OnphfJnKhkUtURJTx1RkUWjZaE/view?usp=drive_link
