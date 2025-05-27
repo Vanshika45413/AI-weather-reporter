@@ -1,2 +1,45 @@
-# AI-weather-reporter
-AI Weather Reporter for an automation internship task. Collects user input via a Lovable form, validates email, fetches real-time weather &amp; AQI using WeatherAPI, stores data in Supabase, and sends a summary email. Built with JavaScript, Make.com/n8n, and optional AI commentary
+This project was built as part of the **AI Automation Project**.
+It collects user input, validates email, fetches live weather & air quality data, stores it, and sends a weather summary email – optionally enhanced with AI commentary.
+
+---
+
+## 🔗 Live Form
+
+Submit your details here: [Lovable Form](https://your-lovable-form-link.com)
+
+---
+
+## 🎯 Features
+
+- 📥 User input via Lovable form (Name, Email, City)
+- ✅ JavaScript email validation using regex
+- 🌤️ Weather & AQI fetch from [WeatherAPI.com](https://www.weatherapi.com/)
+- 🗃️ Data storage in [Supabase](https://supabase.io)
+- 📧 Email sent with:
+  - Temperature (°C)
+  - Weather condition
+  - AQI level
+- 🧠 Optional: Smart weather commentary using OpenAI or Claude
+
+---
+
+## 🧰 Tech Stack
+
+| Component      | Tool/Service        |
+|----------------|---------------------|
+| Form           | Lovable             |
+| Automation     | Make.com / n8n      |
+| Weather API    | WeatherAPI.com      |
+| Database       | Supabase            |
+| Email          | Gmail SMTP / Mailjet / Brevo |
+| AI (Optional)  | OpenAI / Claude     |
+
+---
+
+## 🧪 Email Validation (JavaScript)
+
+```js
+function validateEmail(email) {
+  const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  return regex.test(email);
+}
