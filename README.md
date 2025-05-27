@@ -44,6 +44,8 @@ function validateEmail(email) {
   return regex.test(email);
 }
 
+---
+
 ## 📽️ Demo Video
 🎥 Watch how it works from start to finish:
 https://drive.google.com/file/d/1OhfaW5OnphfJnKhkUtURJTx1RkUWjZaE/view?usp=drive_link
